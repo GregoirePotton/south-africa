@@ -1,0 +1,73 @@
+
+.diaporama1 {
+  margin: 0 auto;
+  width: 600px;
+  height: 600px;
+  border: 3px solid #333;
+  background-image: url(images/blyde1.jpg);
+
+  webkit-animation-name: diapo1;
+  webkit-animation-duration: 18s;
+  webkit-animation-timing-function: linear;
+  webkit-animation-iteration-count: infinite;
+  webkit-animation-direction: normal;
+
+  moz-animation-name: diapo1;
+  moz-animation-duration: 18s;
+  moz-animation-timing-function: linear;
+  moz-animation-iteration-count: infinite;
+  moz-animation-direction: normal;
+
+  animation-name: diapo1;
+  animation-duration: 18s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@-webkit-keyframes diapo1{
+  0%{background-image: url(images/blyde1.jpg);}
+  13%{background-image: url(images/blyde1.jpg);}
+  16%{background-image: url(images/blyde2.jpg);}
+  30%{background-image: url(images/blyde2.jpg);}
+  33%{background-image: url(images/blyde3.jpg);}
+  46%{background-image: url(images/blyde3.jpg);}
+  49%{background-image: url(images/blyde4.jpg);}
+  63%{background-image: url(images/blyde4.jpg);}
+  67%{background-image: url(images/blyde5.jpg);}
+  80%{background-image: url(images/blyde5.jpg);}
+  83%{background-image: url(images/blyde6.jpg);}
+  97%{background-image: url(images/blyde6.jpg);}
+}
+
+@-moz-keyframes diapo1{
+  0%{background-image: url(images/blyde1.jpg);}
+  13%{background-image: url(images/blyde1.jpg);}
+  16%{background-image: url(images/blyde2.jpg);}
+  30%{background-image: url(images/blyde2.jpg);}
+  33%{background-image: url(images/blyde3.jpg);}
+  46%{background-image: url(images/blyde3.jpg);}
+  49%{background-image: url(images/blyde4.jpg);}
+  63%{background-image: url(images/blyde4.jpg);}
+  67%{background-image: url(images/blyde5.jpg);}
+  80%{background-image: url(images/blyde5.jpg);}
+  83%{background-image: url(images/blyde6.jpg);}
+  97%{background-image: url(images/blyde6.jpg);}
+}
+
+@keyframes diapo1{
+  0%{background-image: url(images/blyde1.jpg);}
+  13%{background-image: url(images/blyde1.jpg);}
+  16%{background-image: url(images/blyde2.jpg);}
+  30%{background-image: url(images/blyde2.jpg);}
+  33%{background-image: url(images/blyde3.jpg);}
+  46%{background-image: url(images/blyde3.jpg);}
+  49%{background-image: url(images/blyde4.jpg);}
+  63%{background-image: url(images/blyde4.jpg);}
+  67%{background-image: url(images/blyde5.jpg);}
+  80%{background-image: url(images/blyde5.jpg);}
+  83%{background-image: url(images/blyde6.jpg);}
+  97%{background-image: url(images/blyde6.jpg);}
+}
+
+
