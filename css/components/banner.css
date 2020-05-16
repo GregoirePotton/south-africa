@@ -22,6 +22,15 @@
 	background-position: center;
 }
 
+.bannerhistoire {
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 30%), url(../../images/backgroundhistoire.jpg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+
 .banner1 {
 	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 30%), url(../../images/background1.jpeg);
 	color: white;
@@ -53,9 +62,20 @@
 	padding: 150px 0px;
 	background-size: cover;
 	background-position: center;
+}
+
+.banner5 {
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%), url(../../images/background5.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
 .banner h1 {
 	font-size: 50px;
 }
+
 
 .banner h2 {
 	font-size: 30px;
